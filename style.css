@@ -5,13 +5,33 @@
 }
 
 body{
+    background-color:#000 ;
+    color: #fff;
+    font-size: 20px;
     @media {
 
     }
 }
 .banner{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.637),rgba(0, 0, 0, 0.849)), url(https://www.sun-sentinel.com/resizer/HX8X0scfuhURJcTdsTtDfJCvfAQ=/1200x0/top/www.trbimg.com/img-5a43e53b/turbine/fl-sp-um-hurricanes-orange-bowl-turnover-chain-20171227);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.637),rgba(0, 0, 0, 0.849)), url(https://images.squarespace-cdn.com/content/v1/5ab4527b3c3a536a7a352c05/1541877193342-OL7HX836XCR79CHF4D29/ke17ZwdGBToddI8pDm48kKG6OoQUcDwE6Xrn0CktdYIUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKc7wdBxA2FfWIL_oInLxCuGYBExGLaY8v4Pn7yFeMELUKe4DQXRx1Bu1AnCO9mIfj2/adidasFballUS_x_Miami_Nights_Tunnel.jpg?format=2500w);
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 100vw;
     height: 100vh;
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 150px;
+}
+.bannertext{
+    font-family: 'Anton', sans-serif;
+    font-size: 130px;
+    color: rgb(230, 90, 9);
+    text-shadow: 5px 7px 10px #fff;
+
+}
+.bigu{
+    color:#fff;
+    font-size: 180px;
+    text-shadow: 5px 4px 10px rgb(230, 90, 9);
 }
