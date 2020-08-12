@@ -3,9 +3,14 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    @media {
+
+    }
+}
 .banner{
     background-image: linear-gradient(rgba(0, 0, 0, 0.637),rgba(0, 0, 0, 0.849)), url(https://www.sun-sentinel.com/resizer/HX8X0scfuhURJcTdsTtDfJCvfAQ=/1200x0/top/www.trbimg.com/img-5a43e53b/turbine/fl-sp-um-hurricanes-orange-bowl-turnover-chain-20171227);
-    position: cover;
     width: 100vw;
     height: 100vh;
     
