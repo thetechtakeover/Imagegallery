@@ -25,13 +25,43 @@ body{
 }
 .bannertext{
     font-family: 'Anton', sans-serif;
-    font-size: 130px;
-    color: rgb(230, 90, 9);
-    text-shadow: 5px 7px 10px #fff;
+    font-size: 110px;
+    color: rgba(230, 90, 9, 0.842);
+    text-shadow: 5px 10px 20px rgba(255, 255, 255, 0.582);
 
 }
 .bigu{
     color:#fff;
     font-size: 180px;
-    text-shadow: 5px 4px 10px rgb(230, 90, 9);
+    text-shadow: 5px 4px 15px rgba(230, 90, 9, 0.753);
+    }
+/*main section*/
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-bottom: 80px;
 }
+h2{
+    padding-left: 20px;
+}
+.maintext h1 h2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.maintext p {
+    text-align: left;
+    padding: 40px 40px 0 20px;
+    line-height: 1.6em;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+.mainpic{
+    background-image: url(https://i1.wp.com/itsauthing.com/wp-content/uploads/2020/03/miami-hurricanes-orange-bowl-tunnel-smoke-football-the-u.png?ssl=1);
+    width: 400px;
+    height: auto;
+    padding: 20px;
+}
+/*image gallery*/
