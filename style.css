@@ -50,13 +50,13 @@ h2{
 .maintext p {
     text-align: left;
     padding: 40px 40px 0 20px;
-    line-height: 1.6em;
+    line-height: 1.2em;
 }
 .container{
     width: 90%;
     margin: 0 auto;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 .mainpic{
     background-image: url(https://i1.wp.com/itsauthing.com/wp-content/uploads/2020/03/miami-hurricanes-orange-bowl-tunnel-smoke-football-the-u.png?ssl=1);
@@ -65,3 +65,14 @@ h2{
     padding: 20px;
 }
 /*image gallery*/
+.maingallery{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.galleryimages{
+    width: 300px;
+    height: 300px;
+    padding: 3px;
+}
