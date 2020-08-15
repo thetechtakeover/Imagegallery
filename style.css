@@ -19,7 +19,7 @@ body{
 }
 /*header*/
 .banner{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.637),rgba(0, 0, 0, 0.849)), url(https://images.squarespace-cdn.com/content/v1/5ab4527b3c3a536a7a352c05/1541877193342-OL7HX836XCR79CHF4D29/ke17ZwdGBToddI8pDm48kKG6OoQUcDwE6Xrn0CktdYIUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKc7wdBxA2FfWIL_oInLxCuGYBExGLaY8v4Pn7yFeMELUKe4DQXRx1Bu1AnCO9mIfj2/adidasFballUS_x_Miami_Nights_Tunnel.jpg?format=2500w);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.658)), url(https://images.squarespace-cdn.com/content/v1/5ab4527b3c3a536a7a352c05/1541877193342-OL7HX836XCR79CHF4D29/ke17ZwdGBToddI8pDm48kKG6OoQUcDwE6Xrn0CktdYIUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKc7wdBxA2FfWIL_oInLxCuGYBExGLaY8v4Pn7yFeMELUKe4DQXRx1Bu1AnCO9mIfj2/adidasFballUS_x_Miami_Nights_Tunnel.jpg?format=2500w);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100vw;
@@ -60,6 +60,10 @@ h1{
     line-height: 1.2em;
 }
 /*mid section*/
+.movedown{
+    position: relative;
+    top: 40px;
+}
 .midbanner{
     background-image:  url(https://i.imgur.com/W5sJtml.jpg);
     background-repeat: no-repeat;
@@ -71,14 +75,20 @@ h1{
 
 /*image gallery*/
 .maingallery{
-     margin: -5px auto 0 auto;
+     margin: 90px auto 0 auto;
      padding: 20px;
     display: flex;
-    justify-content: center;
+    justify-content: center;   
+}
+.secondmaingallery{
+    margin: -45px auto 0 auto;
+    padding: 20px;
+   display: flex;
+   justify-content: center;   
 }
 .galleryimages{
-    width: 300px;
-    height:300px;
+    width: 290px;
+    height:280px;
     padding: 2px 2px 0 2px;
     border-radius: 8px;
     box-sizing: border-box;
@@ -91,4 +101,11 @@ figcaption{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
+@media  (max-width:500px)   {
+    .galleryimages {
+        width:200px;
+        height:200px;
+    }
+
 }
