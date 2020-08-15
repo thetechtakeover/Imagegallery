@@ -8,8 +8,6 @@ body{
     background-color:#000 ;
     color: #fff;
     font-size: 20px;
-    @media {
-    }
 }
 .container{
     width: 70%;
@@ -102,10 +100,29 @@ figcaption{
     background-size: cover;
     background-position: center;
 }
-@media  (max-width:500px)   {
-    .galleryimages {
-        width:200px;
-        height:200px;
+@media (max-width:500px)   {
+    .banner{
+        background-color: black;
+        width: 100vw;
+        height: 100vh;
     }
+    h1{
+        font-size:20px;
+    }
+    .maingallery {
+        display: flex;
+        flex-direction: column;
+    }
+    .galleryimages{
+    width: 200px;
+    height:200px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    }
+    .container{
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
 
 }
