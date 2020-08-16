@@ -32,7 +32,6 @@ body{
     font-size: 110px;
     color: rgba(230, 90, 9, 0.842);
     text-shadow: 5px 10px 20px rgba(255, 255, 255, 0.582);
-
 }
 .bigu{
     color:#fff;
@@ -100,6 +99,7 @@ figcaption{
     background-size: cover;
     background-position: center;
 }
+
 @media (max-width:500px)   {
     body{
         text-align:center;
