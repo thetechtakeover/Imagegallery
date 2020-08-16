@@ -111,11 +111,11 @@ figcaption{
     }
     .bannertext{
         text-align: center;
-        font-size: 60px;
+        font-size: 50px;
     }
     .bigu{
         color:#fff;
-        font-size: 50px;
+        font-size: 52px;
         text-shadow: 5px 4px 15px rgba(230, 90, 9, 0.753);
         }
     h1{
@@ -182,8 +182,8 @@ p{
     flex-direction: column;
 }
 .galleryimages{
-width: 150px;
-height:150px;
+width: 200px;
+height:200px;
 border-radius: 5px;
 box-sizing: border-box;
 }
