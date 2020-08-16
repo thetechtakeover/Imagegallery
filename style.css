@@ -26,6 +26,7 @@ body{
     justify-content: center;
     align-items: center;
     margin-bottom: 100px;
+    border-bottom: 0.5px solid rgba(230, 90, 9, 0.842);
 }
 .bannertext{
     font-family: 'Anton', sans-serif;
@@ -65,14 +66,17 @@ h1{
     background-image:  url(https://i.imgur.com/W5sJtml.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position:center;
     width: 100vw;
-    height: 100vh;
-    margin-bottom: 100px;
+    height: 75vh;
+    margin-bottom: 50px;
+    border-top: 0.5px solid rgba(230, 90, 9, 0.842);
+    border-bottom: 0.5px solid rgba(230, 90, 9, 0.842);
 }
 
 /*image gallery*/
 .maingallery{
-     margin: 90px auto 0 auto;
+     margin: 20px auto 0 auto;
      padding: 20px;
     display: flex;
     justify-content: center;   
