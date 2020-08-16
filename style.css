@@ -174,8 +174,7 @@ p{
     margin: 0px 20px;
 }
 .midbanner{
-    background-image: none;
-    position:absolute;
+    display: none;
 }
 .maingallery, .secondmaingallery {
     display: flex;
