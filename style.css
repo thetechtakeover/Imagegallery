@@ -105,6 +105,10 @@ figcaption{
         text-align:center;
         font-size: 20px;
     }
+    .banner{
+        background-position: center;
+        height: 75vh;
+    }
     .bannertext{
         text-align: center;
         font-size: 50px;
@@ -116,8 +120,17 @@ figcaption{
         }
     h1{
         font-size:30px;
+        padding: 0 30px;
+        margin: 20px 0;
     }
-    .maingallery {
+    p{
+        margin: 0px 30px;
+    }
+    .midbanner{
+        background-image: none;
+        position:absolute;
+    }
+    .maingallery, .secondmaingallery {
         display: flex;
         flex-direction: column;
     }
